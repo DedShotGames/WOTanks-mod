@@ -1,9 +1,9 @@
 {
 "name": "WOTanks",
 "displayName": "WOTanks",
-"repo": "DedShotGames/WOTanks",
+"repo": "Urbokie/WOTanks",
 "author": "DedShotGames",
 "description": "You are the lucky owner of my mod, which adds a tank with each update!",
-"version": "1.05",
+"version": "1.06",
 "minGameVersion": "146"
 }

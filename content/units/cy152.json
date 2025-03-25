@@ -1,21 +1,21 @@
 {
-"description": "KB1-c",
-"name":"Kb1c",
+"description": "cy152",
+"name":"cy152",
 "type": "tank",
-"range": 30,
-"hitSize": 31,
+"range": 28,
+"hitSize": 29,
 "crushDamage": 3,
 "treadPullOffset": 6,
 "singleTarget": false,
 "omniMovement": false,
 "faceTarget": false,
-"health": 1600,
+"health": 1200,
 "armor": 0,
-"speed": 0.45,
-"rotateSpeed": 0.9,
+"speed": 0.32,
+"rotateSpeed": 0.8,
 "itemCapacity": 0,
 "deathSound": "exetr1"
-"loopSoundVolume": 0.18
+"loopSoundVolume": 0.20
 "loopSound": "tt3"
 "outlineColor": "44413c",
 "treadSound": "wot_big",
@@ -31,26 +31,27 @@
 
 "weapons": [
     {
-      "name": "Kb1c_tour",
+      "name": "cy152_tour",
       "mirror": false,
       "top": true,
-      "x": 0,
-      "y": 6.4,
+      "x": 1.72,
+      "y": 12.3,
       "layerOffset": 3,
       "rotate": true,
       "inaccuracy": 0.2,
-      "rotateSpeed": 0.7,
+      "rotateSpeed": 0.5,
+	  "rotationLimit": 6,
       "cooldownTime": 30,
       "shootY": 20,
       "shootX": 1,
 
-      "reload": 300,
+      "reload": 1200,
       "recoil": 0,
       "parts": [
         {
           "type": "RegionPart",
           "suffix": "-barrel",
-		  "x": 0,
+		  "x": 0.2,
           "y": 2,
           "under": true,
           "moves": [
@@ -62,7 +63,7 @@
           ]
         }
       ],
-      "shootSound": "wot_big",
+      "shootSound": "both",
       "bullet": {
         "type": "BasicBulletType",
         "sprite": "missile-large",
@@ -72,13 +73,13 @@
 		"minPitch": 0.8,
 		"maxPitch": 1.2,
         "lifetime": 22.85714286,
-        "damage": 200,
+        "damage": 800,
         "pierceArmor": true,
-        "speed": 31,
+        "speed": 29,
         "trailLength": 2,
         "trailWidth": 0.4,
-        "width": 4,
-        "height": 9,
+        "width": 5,
+        "height": 10,
         "trailColor": "edcc49",
         "backColor": "ff7048",
         "frontColor": "f9db62"
