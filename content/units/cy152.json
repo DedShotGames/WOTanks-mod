@@ -63,7 +63,7 @@
           ]
         }
       ],
-      "shootSound": "both",
+      "shootSound": "both1",
       "bullet": {
         "type": "BasicBulletType",
         "sprite": "missile-large",
