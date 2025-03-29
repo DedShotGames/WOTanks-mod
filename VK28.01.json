@@ -1,0 +1,88 @@
+{
+"description": "VK28.01",
+"name":"VK28.01",
+"type": "tank",
+"range": 29,
+"hitSize": 29,
+"crushDamage": 2,
+"treadPullOffset": 6,
+"singleTarget": false,
+"omniMovement": false,
+"faceTarget": false,
+"health": 1000,
+"armor": 0,
+"speed": 0.79,
+"rotateSpeed": 1.1,
+"itemCapacity": 0,
+"deathSound": "exetr2"
+"loopSoundVolume": 0.40
+"loopSound": "tt2"
+"outlineColor": "44413c",
+"treadRects": [
+    {
+          "name":"VK28.01-treads",
+      "x": 29,
+      "y": -70,
+      "width": 19,
+      "height": 140
+    }
+  ],
+
+
+"weapons": [
+    {
+      "name": "VK28.01_tour",
+      "mirror": false,
+      "top": true,
+      "x": 0,
+      "y": 3,
+      "layerOffset": 3,
+      "rotate": true,
+      "inaccuracy": 0.12,
+      "rotateSpeed": 0.5,
+      "cooldownTime": 30,
+      "shootY": 18,
+      "shootX": -1,
+
+      "reload": 450,
+      "recoil": 0,
+      "parts": [ 
+          {
+          "type": "RegionPart",
+          "suffix": "-barrel",
+		  "x": -0.25,
+          "y": 4,
+          "under": true,
+          "moves": [
+            {
+              "type": "PartMove",
+              "progress": "recoil",
+              "y": -1.4
+            }
+          ]
+        }
+      ],
+      "shootSound": "wot_mid",
+      "bullet": {
+        "type": "BasicBulletType",
+        "sprite": "missile-large",
+        "shootEffect": "shootBig2",
+        "hitEffect": "hitBulletSmall",
+        "despawnHit": true,
+		"minPitch": 0.8,
+		"maxPitch": 1.2,
+        "lifetime": 22.85714286,
+        "damage": 250,
+        "pierceArmor": true,
+        "speed": 30,
+        "trailLength": 2,
+        "trailWidth": 0.4,
+        "width": 4,
+        "height": 9,
+        "trailColor": "edcc49",
+        "backColor": "ff7048",
+        "frontColor": "f9db62"
+      }
+    },
+  ]
+}
