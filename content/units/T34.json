@@ -15,7 +15,7 @@
 "rotateSpeed": 1,
 "itemCapacity": 0,
 "deathSound": "exetr2"
-"loopSoundVolume": 0.17
+"loopSoundVolume": 0.37
 "loopSound": "tt3"
 "outlineColor": "44413c",
 "treadRects": [
@@ -23,7 +23,7 @@
 	"name":"T34-treads",
       "x": 26,
       "y": -70,
-      "width": 17,
+      "width": 14,
       "height": 140
     }
   ],
@@ -70,7 +70,7 @@
         "hitEffect": "hitBulletSmall",
         "despawnHit": true,
 		"minPitch": 0.8,
-		"maxPitch": 1.2,
+		"maxPitch": 1.1,
         "lifetime": 22.85714286,
         "damage": 150,
         "pierceArmor": true,

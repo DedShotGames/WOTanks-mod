@@ -3,7 +3,7 @@
 "name":"VK28.01",
 "type": "tank",
 "range": 29,
-"hitSize": 30,
+"hitSize": 29,
 "crushDamage": 2,
 "treadPullOffset": 6,
 "singleTarget": false,
@@ -15,7 +15,7 @@
 "rotateSpeed": 1.1,
 "itemCapacity": 0,
 "deathSound": "exetr2"
-"loopSoundVolume": 0.17
+"loopSoundVolume": 0.40
 "loopSound": "tt2"
 "outlineColor": "44413c",
 "treadRects": [

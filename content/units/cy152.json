@@ -3,7 +3,7 @@
 "name":"cy152",
 "type": "tank",
 "range": 28,
-"hitSize": 29,
+"hitSize": 28,
 "crushDamage": 3,
 "treadPullOffset": 6,
 "singleTarget": false,
@@ -11,16 +11,17 @@
 "faceTarget": false,
 "health": 1200,
 "armor": 0,
-"speed": 0.32,
-"rotateSpeed": 0.8,
+"speed": 0.33,
+"rotateSpeed": 0.7,
 "itemCapacity": 0,
 "deathSound": "exetr1"
-"loopSoundVolume": 0.20
-"loopSound": "tt3"
+"loopSoundVolume": 0.34
+"loopSound": "tt4"
 "outlineColor": "44413c",
 "treadSound": "wot_big",
 "treadRects": [
     {
+	  "name":"cy152-treads",
       "x": 28,
       "y": -76,
       "width": 16,
