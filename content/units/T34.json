@@ -1,6 +1,6 @@
 {
 "description": "T34",
-"name":"T34",
+"name":"T-34",
 "type": "tank",
 "range": 32,
 "hitSize": 32,
@@ -70,7 +70,7 @@
         "hitEffect": "hitBulletSmall",
         "despawnHit": true,
 		"minPitch": 0.8,
-		"maxPitch": 1.1,
+		"maxPitch": 0.8,
         "lifetime": 22.85714286,
         "damage": 150,
         "pierceArmor": true,

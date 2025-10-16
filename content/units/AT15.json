@@ -1,68 +1,70 @@
 {
-"description": "Tiger1",
-"name":"Tiger I",
+"description": "AT15",
+"name":"AT15",
 "type": "tank",
-"range": 29,
-"hitSize": 29,
-"crushDamage": 4,
+"range": 30,
+"hitSize": 30,
+"crushDamage": 3,
 "treadPullOffset": 6,
 "singleTarget": false,
 "omniMovement": false,
 "faceTarget": false,
-"health": 1800,
+"health": 2000,
 "armor": 0,
-"speed": 0.35,
-"rotateSpeed": 0.7,
+"speed": 0.30,
+"rotateSpeed": 0.6,
 "itemCapacity": 0,
 "deathSound": "exetr1"
-"loopSoundVolume": 0.26
-"loopSound": "tt"
+"loopSoundVolume": 0.34
+"loopSound": "tt6"
 "outlineColor": "44413c",
+"treadSound": "wot_big",
 "treadRects": [
     {
-	  "name":"Tig1-treads",
-      "x": 28,
-      "y": -77,
-      "width": 17,
-      "height": 155
+	  "name":"AT15-treads",
+      "x": 32,
+      "y": -80,
+      "width": 20,
+      "height": 164
     }
   ],
 
 
 "weapons": [
     {
-      "name": "Tig1_tour",
+      "name": "AT15_tour",
       "mirror": false,
       "top": true,
       "x": 0,
-      "y": 1,
+      "y": 8,
       "layerOffset": 3,
       "rotate": true,
-      "inaccuracy": 0.3,
-      "rotateSpeed": 0.4,
+      "inaccuracy": 0.2,
+      "rotateSpeed": 0.6,
+	  "rotationLimit": 42,
       "cooldownTime": 30,
-      "shootY": 21,
+      "shootY": 20,
       "shootX": 1,
 
-      "reload": 500,
+      "reload": 250,
       "recoil": 0,
       "parts": [
         {
           "type": "RegionPart",
           "suffix": "-barrel",
 		  "x": 0,
-          "y": 8,
+          "y": -1,
           "under": true,
           "moves": [
             {
               "type": "PartMove",
               "progress": "recoil",
-              "y": -1.6
+              "y": -1.5
             }
           ]
         }
       ],
-      "shootSound": "wot_big",
+      "shootSound": "wot_mid",
       "bullet": {
         "type": "BasicBulletType",
         "sprite": "missile-large",
@@ -72,13 +74,13 @@
 		"minPitch": 0.8,
 		"maxPitch": 0.8,
         "lifetime": 22.85714286,
-        "damage": 400,
+        "damage": 150,
         "pierceArmor": true,
         "speed": 30,
         "trailLength": 2,
         "trailWidth": 0.4,
-        "width": 4,
-        "height": 9,
+        "width": 5,
+        "height": 10,
         "trailColor": "edcc49",
         "backColor": "ff7048",
         "frontColor": "f9db62"

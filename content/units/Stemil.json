@@ -1,6 +1,6 @@
 {
 "description": "St-emil",
-"name":"Stemil",
+"name":"St-Emil",
 "type": "tank",
 "range": 30,
 "hitSize": 30,
@@ -72,7 +72,7 @@
         "hitEffect": "hitBulletSmall",
         "despawnHit": true,
 		"minPitch": 0.8,
-		"maxPitch": 1.2,
+		"maxPitch": 0.8,
         "lifetime": 22.85714286,
         "damage": 600,
         "pierceArmor": true,
