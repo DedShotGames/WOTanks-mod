@@ -1,6 +1,6 @@
 {
 "description": "cy152",
-"name":"cy152",
+"name":"СУ-152",
 "type": "tank",
 "range": 28,
 "hitSize": 28,
@@ -72,7 +72,7 @@
         "hitEffect": "hitBulletSmall",
         "despawnHit": true,
 		"minPitch": 0.8,
-		"maxPitch": 1.2,
+		"maxPitch": 0.8,
         "lifetime": 22.85714286,
         "damage": 800,
         "pierceArmor": true,
