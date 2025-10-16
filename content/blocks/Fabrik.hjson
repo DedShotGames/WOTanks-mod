@@ -1,0 +1,47 @@
+type: UnitFactory
+health: 800
+name: "Panzerbauer"
+size: 5
+category: units
+research: router
+cost: 1000
+consumes: {
+power: 1
+}
+
+requirements: [
+coal/10
+copper/40
+scrap/170
+]
+plans: [
+{
+unit: Tig1
+requirements: [
+copper/10
+scrap/55
+lead/25
+coal/10
+]
+time: 2000
+}
+{
+unit: VK28.01
+requirements: [
+copper/15
+scrap/50
+lead/20
+]
+time: 1800
+}
+{
+unit: Stemil
+requirements: [
+lead/20
+scrap/40
+copper/15
+coal/10
+]
+time: 2000
+}
+]

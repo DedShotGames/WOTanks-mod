@@ -1,0 +1,46 @@
+type: UnitFactory
+health: 800
+name: "Tank assembler"
+size: 5
+category: units
+research: router
+cost: 800
+consumes: {
+power: 1
+}
+
+requirements: [
+coal/30
+copper/50
+scrap/140
+]
+plans: [
+{
+unit: Churchill3
+requirements: [
+copper/15
+scrap/25
+lead/35
+]
+time: 2400
+}
+{
+unit: Crusader3
+requirements: [
+copper/10
+scrap/10
+lead/20
+]
+time: 2100
+}
+{
+unit: AT15
+requirements: [
+lead/10
+scrap/65
+copper/10
+coal/10
+]
+time: 2600
+}
+]

@@ -1,0 +1,46 @@
+type: UnitFactory
+health: 800
+name: "Сборщик танков"
+size: 5
+category: units
+research: router
+cost: 800
+consumes: {
+power: 1
+}
+
+requirements: [
+coal/20
+copper/50
+scrap/150
+]
+plans: [
+{
+unit: KB1c
+requirements: [
+copper/10
+scrap/50
+lead/20
+]
+time: 2400
+}
+{
+unit: T34
+requirements: [
+copper/15
+scrap/40
+lead/15
+]
+time: 2000
+}
+{
+unit: cy152
+requirements: [
+lead/20
+scrap/40
+copper/10
+coal/10
+]
+time: 2400
+}
+]
